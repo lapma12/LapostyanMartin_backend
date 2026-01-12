@@ -44,5 +44,26 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lapostyan_Martin_backend.Controllers.MovieController",
+    "Method": "AddMovie",
+    "RelativePath": "api/movies/feladat13",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movie",
+        "Type": "Lapostyan_Martin_backend.Models.Dtos.AddMovieDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "uid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
