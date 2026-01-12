@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lapostyan_Martin_backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+237023a2d0119f96922852a7da331c4dcc2a4e83")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+094de8f655b836b04ab07665ae288c9be6af9552")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lapostyan_Martin_backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lapostyan_Martin_backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
