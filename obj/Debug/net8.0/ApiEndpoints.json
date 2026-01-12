@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Lapostyan_Martin_backend.Controllers.ActorsController",
+    "Method": "GetActorAllDataByName",
+    "RelativePath": "api/actors/feladat9/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lapostyan_Martin_backend.Controllers.MovieController",
+    "Method": "GetAllMovie",
+    "RelativePath": "api/movies/feladat10",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
