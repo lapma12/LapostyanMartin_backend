@@ -1,0 +1,6 @@
+@Lapostyan_Martin_backend_HostAddress = http://localhost:5252
+
+GET {{Lapostyan_Martin_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
