@@ -16,6 +16,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Lapostyan_Martin_backend.Controllers.FilmTypeController",
+    "Method": "GetAllFilmTypes",
+    "RelativePath": "api/filmtypes/feladat11",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Lapostyan_Martin_backend.Controllers.MovieController",
     "Method": "GetAllMovie",
     "RelativePath": "api/movies/feladat10",

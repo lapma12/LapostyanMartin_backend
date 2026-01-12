@@ -21,7 +21,7 @@ namespace Lapostyan_Martin_backend.Controllers
                         title = m.Title,
                         releaseDate = m.ReleaseDate,
                         actorId = m.ActorId,
-                        fimcTypeId = m.FilmTypeId
+                        filmTypeId = m.FilmTypeId
                     }).ToList();
                 if (movies.Count > 0)
                 {
