@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "Lapostyan_Martin_backend.Controllers.ActorsController",
+    "Method": "GetActorsCount",
+    "RelativePath": "api/actors/feladat12",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Lapostyan_Martin_backend.Controllers.ActorsController",
     "Method": "GetActorAllDataByName",
     "RelativePath": "api/actors/feladat9/{name}",
     "HttpMethod": "GET",

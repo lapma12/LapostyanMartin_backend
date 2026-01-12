@@ -1,5 +1,6 @@
 ﻿using Lapostyan_Martin_backend.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -45,5 +46,27 @@ namespace Lapostyan_Martin_backend.Controllers
             }
         }
 
+        [HttpGet("feladat12")]
+
+        public IActionResult GetActorsCount()
+        {
+            try
+            {
+                using var context = new CinemadbContext();
+                var actorsCount = context.Actors.Count();
+                string szoveg = $"Színészek száma: {actorsCount}";
+                if (actorsCount > 0)
+                {
+                    return StatusCode(200, szoveg);
+                }
+                return StatusCode(400);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
     }
+    
 }
